@@ -3,15 +3,11 @@ body {
     font-size : 100% ;
     background-color : white ;
     color : #111 ;
-    width : 80% ;
-    min-width : 400px ;
-    min-height : 200px ;
-    padding : 1em ;
-    margin : 5% 10% ;
-    border : thin solid gray ;
-    border-radius : 5px ;
+    padding : 0em ;
+    margin : 0% 10% ;
     display : block ;
 }
+
 
 a:link    { color : blue ; text-decoration : none ;      }
 a:hover   { color : blue ; text-decoration : underline ; }
@@ -30,6 +26,10 @@ pre {
 
 #menu li {
     display : inline ;
+}
+#menu ul {
+    padding: 0;
+    list-style-type: none;
 }
 
 #post-list {
